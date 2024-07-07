@@ -1,6 +1,8 @@
 # Mushroom Classification App
 
 This Streamlit app allows users to upload a dataset of mushrooms, perform data cleansing, train a RandomForestClassifier model, and make predictions about mushroom classes based on user inputs. The app includes data visualizations, model evaluation metrics, and feature importance analysis.
+Visit this web to try:
+    https://mushroomproject.streamlit.app/
 
 ## Features
 
