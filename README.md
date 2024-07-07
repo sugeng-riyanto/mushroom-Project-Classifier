@@ -16,8 +16,9 @@ This Streamlit app allows users to upload a dataset of mushrooms, perform data c
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/mushroom-classification-app.git
-    cd mushroom-classification-app
+    git clone [https://github.com/yourusername/mushroom-classification-app.git](https://github.com/sugeng-riyanto/mushroom-Project-Classifier.git)
+    cd mushroom-Project-Classifier
+    
     ```
 
 2. Create a virtual environment and activate it:
