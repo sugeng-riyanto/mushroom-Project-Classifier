@@ -38,7 +38,7 @@ This Streamlit app allows users to upload a dataset of mushrooms, perform data c
 1. Run the Streamlit app:
 
     ```bash
-    streamlit run mushroom_classification_app.py
+    streamlit run app.py
     ```
 
 2. Upload your mushroom dataset in CSV format.
