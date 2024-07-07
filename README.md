@@ -56,7 +56,7 @@ This Streamlit app allows users to upload a dataset of mushrooms, perform data c
 ## Requirements
 
 - Python 3.8 or higher
-- Streamlit 1.11.0
+- Streamlit 1.24.0
 - Pandas 1.3.5
 - Matplotlib 3.5.1
 - Seaborn 0.11.2
