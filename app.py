@@ -144,7 +144,11 @@ if uploaded_file is not None:
 
             for col in input_df.columns:
                 if col in st.session_state['encoder']:
-                    input_df[col] = st.session_state['encoder'][col].transform(input_df[col])
+                    try:
+                        input_df[col] = st.session_state['encoder'][col].transform(input_df[col])
+                    except ValueError as e:
+                        st.write(f"Error in encoding {col}: {e}")
+                        st.stop()
 
             prediction = st.session_state['model'].predict(input_df)
             predicted_class = label_encoders['class'].inverse_transform(prediction)
